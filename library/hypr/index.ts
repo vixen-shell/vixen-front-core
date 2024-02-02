@@ -25,7 +25,7 @@ export namespace Hypr {
         windowtitle = 'windowtitle',
     }
 
-    type EventId = keyof typeof EventIds
+    export type EventId = keyof typeof EventIds
 
     const eventListener = {
         add: (eventId: EventId, listener: (data: object) => any) => {
