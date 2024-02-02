@@ -1,8 +1,5 @@
 {
     "name": "@vixen-front/core",
-    "description": "Vixen Shell front-end Core library.",
-    "author": "Nohavye",
-    "license": "GPL-3.0-only",
     "private": false,
     "version": "0.0.1",
     "type": "module",
@@ -29,5 +26,17 @@
         "typescript": "^5.2.2",
         "vite": "^5.0.8",
         "vite-plugin-dts": "^3.7.1"
-    }
+    },
+    "description": "Vixen Shell front-end Core library.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vixen-shell/vixen-front-core.git"
+    },
+    "keywords": [],
+    "author": "Nohavye",
+    "license": "GPL-3.0-only",
+    "bugs": {
+        "url": "https://github.com/vixen-shell/vixen-front-core/issues"
+    },
+    "homepage": "https://github.com/vixen-shell/vixen-front-core#readme"
 }
